@@ -8,6 +8,6 @@ int Solution::solve(int A, int B, int C, int D) {
     sqr.push_back(D);
     
     sort(sqr.begin(), sqr.end());
-    
-    return (A==B & C==D);
+    return (sqr[0]==sqr[1] && sqr[2]==sqr[3]);
+//  return (A==B & C==D);
    }
